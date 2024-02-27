@@ -1,32 +1,4 @@
 # LaTeXNoteTemplate
-My personal $\LaTeX$ note template in Japanese.
-
-# LaTeX Setting
-This template is designed to be used with the `xelatex` and `BXjscls` packages.
-The default font is set to `BIZUDMincho-Regular` and `BIZUDGothic-Regular`.
-Please install the `BIZUDMincho-Regular` and `BIZUDGothic-Regular` fonts before using this template.
-Alternatively, you can change the font settings in the `main.tex` file.
-
-## Usage
-To build the document, run the following command:
-```bash
-make
-```
-
-The default behavior of the `make` command is silent.
-
-If you need to see the output of the commands, run the following command:
-```bash
-make verbose
-```
-
-The `Makefile` assumes that the target file is `main.tex`.
-
-If you would like to change the target file, modify the `TEX_MAIN` variable in the `Makefile`.
-
-The `Makefile` can accept multiple `.tex` files that are included or inputed in the `main.tex` file.
-
-# LaTeXNoteTemplate
 This repository contains my personal LaTeX note template.
 
 ## LaTeX Setting
