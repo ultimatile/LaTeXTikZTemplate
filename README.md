@@ -1,10 +1,5 @@
-# LaTeXNoteTemplate
-This repository contains my personal LaTeX note template.
-
-## LaTeX Setting
-This template is optimized for use with the `xelatex` compiler and requires the `BXjscls` package. 
-The default fonts utilized are `BIZUDMincho-Regular` and `BIZUDGothic-Regular`. 
-It's essential to have these fonts installed before using the template. However, you can easily customize the font settings within the `main.tex` file to suit your preferences.
+# LaTeXTikZTemplate
+This repository contains my personal LaTeX TikZ template with the standalone class.
 
 ## Usage
 To compile the document, execute the following command in your terminal:

@@ -1,37 +1,22 @@
-\documentclass[12pt, a4paper, xelatex, ja=standard]{bxjsarticle}
-%\documentclass[8pt, a4paper, xelatex, ja=standard,twocolumn]{bxjsarticle}
+\documentclass[border={
+  0pt 0pt 0pt 0pt}]{standalone}
 \usepackage{unicode-math}% math font specification
-\usepackage{geometry}% change the page layout
-% hyperref
-\usepackage{hyperref}
-\hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue}
+%\usepackage{geometry}% change the page layout
+%\setpagelayout{top=0truemm,bottom=10truemm,left=8truemm,right=8truemm}% geometry
+%\usepackage{braket}% Dirac notation
 
-\usepackage{braket}% Dirac notation
-
-\setpagelayout{top=0truemm,bottom=10truemm,left=8truemm,right=8truemm}% geometry
-
-% The fonts should be installed in your system
-\setCJKmainfont[BoldFont=BIZUDMincho-Bold]{BIZUDMincho-Regular}%[AutoFakeSlant=0.25]
-\setCJKsansfont[BoldFont=BIZUDGothic-Bold]{BIZUDGothic-Regular}%[AutoFakeSlant=0.25]
 
 %useful aliases
 %\newcommand{\Exp}{\mathrm{e}}% exponential
 %\newcommand{\total}{\mathrm{d}}% differential
 %\DeclareMathOperator*{\Tprod}{\mathcal{T}}% time-ordered product
 
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+%\usetikzlibrary{calc}
 % change the section's color
-\makeatletter
-\renewcommand\section{\@startsection{section}{1}{\z@}%
-  {-3.5ex \@plus -1ex \@minus -.2ex}%
-  {2.3ex \@plus.2ex}%
-  {\color{blue}\normalfont\sffamily\Large\bfseries}}
-\makeatother
-\title{my title}
-\date{}
 \begin{document}
-\maketitle
-%\bibliographystyle{alpha} % Choose a BibTeX style, e.g., plain, alpha, etc.
-%\bibliographystyle{alpha-physrev}
-%\bibliographystyle{h-physrev}
-%\bibliography{main}
+\begin{tikzpicture}
+  
+\end{tikzpicture}
 \end{document}
